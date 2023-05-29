@@ -359,10 +359,10 @@ php artisan serve
 #To install apache as windows service run the cmd as admin
 #locate httpd.exe location ex- cd C:\apache24\lib
 httpd.exe -k install
-#click on apacheMonitor to see or start or stop or restart host services
 #Make settings in httpd.conf
 1.Set 'LISTEN' for ip-address:port as 127.0.0.1:80
 2.Set 'ServerName' for 'domain' as localhost
+#click on apacheMonitor to see or start or stop or restart host services
 #Enjoy server host at 127.0.0.1 OR localhost
 #Root directory will be ex- C:\\apache24\htdocs\index.html
 
