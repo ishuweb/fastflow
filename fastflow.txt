@@ -384,9 +384,15 @@ composer clear-cache
 ------------------------------------------------------
 #To create new project of laravel
 cd project-root-directory
-composer create-project laravel/laravel project-name
-#To delete laravel project simple delete the project directory
+laravel new project-name
+#To delete laravel project, simply delete the project directory
 ------------------------------------------------------
+
+---------------------------------------------------------------
+#When we want to instal and create new project simunalously
+cd project-root-directory
+composer create-project laravel/laravel project-name
+--------------------------------------------------------------
 
 ---------------------------------------------
 #To update laravel installer 
