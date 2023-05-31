@@ -322,32 +322,99 @@ extension=mysqli 'remove comment ;'
 
 
 
-=============================================== Laravel ==============================================
-#Download composer software
-#Environment variable will be added automaticaly so composer will run from any directory
-#To install laravel-installer software using composer
-composer global require laravel/installer
-#To uninstall laravel-installer software using composer
-composer global remove laravel/installer
+
+===================================================================================================================
+=============================================== Composer and Laravel Setup ========================================
+===================================================================================================================
+
+------------------------------
+DOWNLOAD DEPENDENCIES MANAGER 
+------------------------------
+
+Dependency Manager Definition:-
+Dependency Manager is a software that runs vie terminal and uses for download and update and remove packages from one or more repositories
+
+Composer Definition:-
+Composer is a PHP dependency Manager, It is a software that download and update and remove PHP framework packages in PHP server
+
+Package Definition:-
+Package is a folder contain many libraries 
+
+Library Definition:-
+Library is a script that contain program intended to be reused by include that script in another script
+
+INSTRUCTION:-
+Download composer software from www.getcomposer.org.com/download -> windows-setup.exe
+Install composer
+Environment variable will be added automaticaly so composer will run from any directory
+The packagist.org is official repository of Composer
+Laravel is official hosted on Github.com
+
+-------------------------------------
+#To check composer installed or not
+composer 
+------------------------------------
+
+-------------------------------
 #To check composer version
 composer --version
+------------------------------
+
+----------------------------------------
+#To install laravel-installer package 
+composer global require laravel/installer
+#Laravel installer package are always install in composer official location e.g. vender
+----------------------------------------
+
+--------------------------------------
 #To check laravel-installer version
 laravel --version
-#To clear screen of cmd
-cls
-#To change directory where our project will host
-cd C:\apache24\htdocs\laravel_project
-#To create new laravel project
-laravel new Project_name
-#Change directory in project directory
-cd project_name
-#To host of laravel project start the host service
+--------------------------------------
+
+--------------------------------------------
+#To uninstall laravel-installer package
+composer global remove laravel/installer
+--------------------------------------------
+
+-------------------------------------------------------------
+#To clear downloaded data of laravel/installer after remove
+composer clear-cache
+-------------------------------------------------------------
+
+------------------------------------------------------
+#To create new project of laravel
+cd project-root-directory
+composer create-project laravel/laravel project-name
+#To delete laravel project simple delete the project directory
+------------------------------------------------------
+
+---------------------------------------------
+#To update laravel installer 
+composer global update laravel/installer
+--------------------------------------------
+
+-------------------------------------------------
+#To update laravel project packages
+cd project-root-directory
+composer update laravel/laravel project-name
+-------------------------------------------------
+
+-------------------------------------
+#To start the laravel host service
+cd project-root-directory
 php artisan serve
+------------------------------------
 
 
 
 
+
+
+
+===============================================================================================================
 ========================================== Apache Server ======================================================
+===============================================================================================================
+
 #Download apache lounge version from https: //httpd.apache.org/download.cgi
 #Click on apache httpd for windows download from third-party-vendors
 #Select popular option as Apache lounge link
@@ -392,7 +459,13 @@ ServerName localhost 'uncomment remove # sign'
 4.Done
 
 
+
+
+
+
+====================================================================================================================
 ================================================= Mysql Server =====================================================
+====================================================================================================================
 
 =========== Download and Install Mysql Server and Shell Software =============
 #Download mysql from mysql.com/download
