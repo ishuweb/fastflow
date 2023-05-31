@@ -332,7 +332,7 @@ DOWNLOAD DEPENDENCIES MANAGER
 ------------------------------
 
 Dependency Manager Definition:-
-Dependency Manager is a software that runs vie terminal and uses for download and update and remove packages from one or more repositories
+Dependency Manager is a software that runs via terminal and uses for download and update and remove packages from one or more repositories into the server
 
 Composer Definition:-
 Composer is a PHP dependency Manager, It is a software that download and update and remove PHP framework packages in PHP server
