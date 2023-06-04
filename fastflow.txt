@@ -412,9 +412,19 @@ php artisan serve
 ------------------------------------
 
 
+--------------------------------------
+#To show the list of all routes 
+cd project-root-directory
+php artisan route:list
+#There is pre defined route, show only custom routes
+php artisan route:list --except-vendor
+#To show route with specific directory or name
+php artisan route:list --path=post [e.g. Route::view('post/data', 'data-page');]
+--------------------------------------
 
 
-
+------------------
+#
 
 
 ===============================================================================================================
