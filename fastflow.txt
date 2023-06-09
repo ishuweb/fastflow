@@ -596,7 +596,12 @@ folder/
 git remote set-url origin -----link-----
 
 
-
+-----------------------------------------------------------
+Download/clone complete repository in our local directory 
+(Our git account verification needed)
+(Only download repository files and folder in local directory)
+git clonne https://github.com/abhisingh926/pursuiet.git
+-----------------------------------------------------------
 
 
 
