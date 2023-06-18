@@ -3,8 +3,9 @@ Get-AppxPackage *photos* | Remove-AppxPackage
 
 
 
-
+=========================================================================================================
 =========================================== JAVASCRIPT ==================================================
+=========================================================================================================
 SERVER-SENT-EVENT
 It is a buildin function or HTML API of html
 It is also a buildin object of javascript
@@ -31,8 +32,9 @@ To send multiple data using JSON.
 
 
 
-
+=============================================================================================
 =============================================== PHP =========================================
+=============================================================================================
 #To Install PHP-compiler just unzip and Move PHP folder a sutable location (Prefered in Programs Folder)
 #Copy and rename php.ini file from development or production ini file
 #To execute php add php.exe path in System Environemt Variables
